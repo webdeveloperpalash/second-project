@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+}
+nav{
+    display: flex;
+    width: 74%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.contuct{
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+}
+button{
+    background-color: orange;
+    padding: 10px 18px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin-top:20px ;
+}
+button:hover{
+    background-color: black;
+}
+.image img{
+    width: 74%;
+    /* margin-top: 20px; */
+    display: flex;
+  
+    margin: auto;
+    bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.daraz{
+    width: 74%;
+   
+    padding: 40px 0;
+}
+.daraz,.picture{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+   
+}
+.picture{
+    margin-left: 136px;
+    
+}
+.daraz{
+    /* display: flex; */
+}
+.picture img{
+    width: 200px;
+    height: 150px;
+}
+.header{
+    margin-left: 110px;
+}
+
+.division{
+    width: 440px;
+    height: 81px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+   
+    
+}
+.division p{
+    color: gainsboro;
+}
+.write{
+  
+    width: 74%;
+    /* margin-top: 20px; */
+    display: flex;
+    position: relative;
+    margin: auto;
+    gap: 30px;
+}
+.writing img{
+    width: 440px;
+    height: 550px;
+    margin-top: 40px;
+
+}
+.box{
+    border: 1px solid orange;
+    width: 90px;
+    padding: 25px 45px;
+   
+ 
+}
+.boxes{
+    display: flex;
+    gap: 90px;
+   
+    width: 74%;
+    margin: auto;
+    /* padding: 10px 0; */
+     align-items: center;
+     /* margin-left: 200px; */
+     margin-top: 5%;
+  
+}
+.box p{
+   font-size: 10px;
+  
+}
+.nishat, .palash{
+    /* background-color:lavender ; */
+   margin-left: 170px;
+   
+}
+.nishat{
+    color: rgb(106, 105, 105);
+    margin-top: 10px;
+}
+#container-five{
+    position: relative;
+   padding: 90px 0;
+   
+   
+}
+ .middle{
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+
+}
+.middle, .line-gap{
+    margin-bottom: 10px;
+     /* line-height: 10px; */
+      margin-top: 10px;
+}
+.logos, .logo {
+    display: flex;
+}
+.logo{
+    margin-left: 100px;
+}
+.icon img{
+    margin-left: 95px;
+    width: 100px;
+    margin-top: 40px;
+}
+.zero{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    margin-top: 05%;
+}
+.navigation{
+    width: 74%;
+    height: 10vh;
+    display: flex;
+    background-color: crimson;
+}
+ .navigation li{
+    list-style: none;
+    width: 74%;
+    /* top: 40%; */
+    position: absolute;
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+    .body-up nav  ul li{
+        display: block;
+    }
+}
